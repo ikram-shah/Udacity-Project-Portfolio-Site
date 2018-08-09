@@ -1,0 +1,143 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a:link {
+    color: #352f2f;
+}
+
+/* visited link */
+
+a:visited {
+    color: #352f2f;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: white;
+}
+
+/* selected link */
+
+a:active {
+    color: white;
+}
+
+header {
+    padding: 30px
+}
+
+header img {
+    float: left;
+    width: 75px;
+    height: 75px;
+}
+
+header h1 {
+    text-align: right;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header h3 {
+    text-align: right;
+    margin: 0;
+}
+
+.display-image {
+    text-align: center;
+}
+
+.image-content {
+    width: 95%;
+}
+
+.about {
+    text-align: center;
+}
+
+.about p{
+    margin: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 300px;
+    height: 350px;
+    background-color: #352f2f;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 #6d6c6c;
+    text-align: center;
+}
+
+.container h2 {
+    margin: 0px;
+    color: white;
+}
+
+.container-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    ;
+    background-color: #352f2f;
+    color: white;
+    font-size: 15px;
+}
+
+@media screen and (min-width: 960px) and (max-width: 1120px) {
+
+    .container {
+        width: 250px;
+        height: 300px;
+        background-color: #352f2f;
+        margin: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 0 #6d6c6c;
+        text-align: center;
+    }
+    .container h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 960px) {
+    .container {
+        width:200px;
+        height: 250px;
+        background-color: #352f2f;
+        margin: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 0 #6d6c6c;
+        text-align: center;
+    }
+    .container h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        background-color: #352f2f;
+        margin: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 0 #6d6c6c;
+        text-align: center;
+    }
+    .container h2 {
+        font-size: 20px;
+    }
+}
