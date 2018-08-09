@@ -6,19 +6,13 @@ a:link {
     color: #352f2f;
 }
 
-/* visited link */
-
 a:visited {
     color: #352f2f;
 }
 
-/* mouse over link */
-
 a:hover {
     color: white;
 }
-
-/* selected link */
 
 a:active {
     color: white;
@@ -139,5 +133,11 @@ footer {
     }
     .container h2 {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        padding: 10px
     }
 }
